@@ -14,45 +14,58 @@ a{
 
 
 /* DISEÑOS PARTICULARES */
-.todas-li li{
-    list-style: none;
-    display: inline-block;
-    padding: 0.5rem 1rem;
-    /* background-color: red; */
-    margin-right: 2rem;
-}
+
 .encabezado{
     width: 100%;
     height: 15%;
-    /* background-color: black; */
+
     border-bottom: 0.04rem solid black;
-    transition: all 1s;
 }
-.encabezado a{
-    padding: 0.5rem 1rem;
-}
-.encabezado a:hover{
-    padding: 0.5rem 1rem;
-    background-color: rgba(221, 218, 215, 0.255);
-    border-radius: 0.5rem;
-}
-.logo{
-    height: 100%;
-    width: 13%;
-    /* background-color: red; */
-    margin-left: 3rem;
-}
-.cont-img-li{
+nav{
     width: 100%;
     height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+    margin: 0;
+    padding: 0;
 }
+nav img{
+    height: 100%;
+    width: 18%;
+}
+nav ul{
+    float: right;
+    margin-right: 2rem;
+}
+nav li{
+    list-style: none;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    line-height: 6rem;
+}
+nav li a{
+    padding: 0.5rem 1rem;
+
+}
+nav li a:hover{
+    cursor: pointer;
+    background-color: rgb(182, 180, 179);
+    border-radius: 2rem;
+}
+.burger{
+    font-size: 1.5rem;
+    float: right;
+    margin: 2.5rem 0.5rem 0 0;
+    cursor: pointer;
+    display: none;
+}
+#menu{
+    display: none;
+}
+
 .section1{
     width: 100%;
     height: 85%;
-    /* background-color: yellow; */
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,13 +73,13 @@ a{
 .cont-tit-img{
     width: 80%;
     height: 80%;
-    /* background-color: yellowgreen; */
+
     display: flex;
 }
 .tit-p-b{
     width: 50%;
     height: 100%;
-    /* background-color: rgb(255, 0, 0); */
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -97,7 +110,7 @@ a{
 .cont-img-section1{
     width: 50%;
     height: 100%;
-    /* background-color: rgb(255, 255, 255); */
+
     display: flex;
     justify-content: flex-start;
 }
@@ -116,7 +129,7 @@ a{
 .cont-2div{
     width: 100%;
     height: 95%;
-    /* background-color: red; */
+
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -125,7 +138,7 @@ a{
 .t-p-s2{
     width: 50%;
     height: 30%;
-    /* background-color: blue; */
+
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -142,7 +155,7 @@ a{
 .cont-3divs{
     width: 70%;
     height: 100%;
-    /* background-color: rgb(224, 237, 224); */
+
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -150,7 +163,7 @@ a{
 .i-t-izq{
     width: 25%;
     height: 80%;
-    /* background-color: white; */
+
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -159,7 +172,7 @@ a{
 .i-t-cen{
     width: 25%;
     height: 80%;
-    /* background-color: rgb(125, 39, 39); */
+
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -168,7 +181,7 @@ a{
 .i-t-der{
     width: 25%;
     height: 80%;
-    /* background-color: rgb(62, 72, 168); */
+
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -177,7 +190,7 @@ a{
 .section3{
     width: 100%;
     height: 80%;
-    /* background-color: rgb(255, 0, 0); */
+
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -186,7 +199,7 @@ a{
 .cont-2div-s3{
     width: 100%;
     height: 100%;
-    /* background-color: grey; */
+ 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -194,7 +207,7 @@ a{
 .t-p-s3{
     width: 20%;
     height: 100%;
-    /* background-color: blue; */
+
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -208,7 +221,7 @@ a{
 .cont-5divs{
     width: 80%;
     height: 80%;
-    /* background-color: green; */
+
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -221,7 +234,7 @@ a{
 .lavado{
     width: 20%;
     height: 45%;
-    /* background-color: yellow; */
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -235,7 +248,7 @@ a{
 .secado{
     width: 20%;
     height: 45%;
-    /* background-color: yellow; */
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -248,7 +261,7 @@ a{
 .estrujado{
     width: 20%;
     height: 45%;
-    /* background-color: yellow; */
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -262,7 +275,7 @@ a{
 .planchado{
     width: 20%;
     height: 45%;
-    /* background-color: yellow; */
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -275,7 +288,7 @@ a{
 .lavandina{
     width: 20%;
     height: 45%;
-    /* background-color: yellow; */
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -452,10 +465,37 @@ a{
         width: 100%;
         text-align: center;
     }
-    .cont-img-section1{
-        width: 80%;
-        height: 60%;
-        margin-top: 2rem;
+    .burger{
+        display: block;
     }
-
+    nav ul{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color:rgb(221, 218, 215);
+        left: -120%;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        transition: all 0.4s;
+    }
+    nav ul li{
+        display: block;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        border-bottom: 0.1rem solid rgba(0, 0, 0, 0.395);
+    }
+    #menu:checked ~ ul{
+        left: 0;
+    }
+    nav li a:hover{
+        cursor: pointer;
+        background-color: rgb(182, 180, 179);
+        border-radius: 2rem;
+    }
+    nav img{
+        margin-left: 2rem;
+        width: 30%;
+    }
 }
