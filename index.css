@@ -185,7 +185,7 @@ a{
 }
 .cont-2div-s3{
     width: 100%;
-    height: 70%;
+    height: 100%;
     /* background-color: grey; */
     display: flex;
     justify-content: center;
@@ -309,7 +309,7 @@ a{
     height: 30%;
 }
 /* MEDIA QUERIES */
-@media (max-width: 500px) {
+@media (max-width: 391px) {
     .todoelpie{
         width: 100%;
         display: flex;
@@ -324,7 +324,9 @@ a{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+    }
+    .t-p-s3{
+        height: 30%;
     }
     .t-p-s3 h4{
         font-size: 1rem;
@@ -338,7 +340,7 @@ a{
         flex-direction: row;
     }
     .cont-5divs img{
-        height: 10%;
+        height: 70%;
         margin: 0;
     }
     .cont-5divs p{
@@ -347,6 +349,26 @@ a{
     }
     .lavado{
         margin: 0;
+    }
+    .lavado img{
+        height: 3rem;
+        width: 3rem;
+    }
+    .secado img{
+        height: 3rem;
+        width: 3rem;
+    }
+    .lavandina img{
+        height: 3rem;
+        width: 3rem;
+    }
+    .estrujado img{
+        height: 3rem;
+        width: 3rem;
+    }
+    .planchado img{
+        height: 3rem;
+        width: 3rem;
     }
     .estrujado{
         margin: 0;
@@ -387,6 +409,53 @@ a{
         color: grey;
     }
     .section3{
-        height: 50%;
+        height: 100%;
     }
+    .cont-5divs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+    .cont-tit-img{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cont-tit-img img{
+        height: 100%;
+        width: 100%;
+    }
+    .section2{
+        width: 100%;
+    }
+    .tit-p-b{
+        margin: 0;
+    }
+    .tit-p-b h3{
+        margin: 0;
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    .tit-p-b p{
+        width: 100%;
+        text-align: center;
+        margin-top: 1rem;
+    }
+    .cont-boton{
+        width: 100%;
+    }
+    .cont-boton button{
+        width: 100%;
+        text-align: center;
+    }
+    .cont-img-section1{
+        width: 80%;
+        height: 60%;
+        margin-top: 2rem;
+    }
+
 }
