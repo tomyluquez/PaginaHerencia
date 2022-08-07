@@ -363,6 +363,7 @@ nav li a:hover{
         align-items: center;
         flex-direction: column;
         gap: 1rem;
+        margin-bottom: 2rem;
     }
     .cont-5divs img{
         height: 70%;
@@ -408,7 +409,7 @@ nav li a:hover{
         height: 50%;
     }
     .t-p-s2 h4{
-        font-size: 1rem;
+        font-size: 2rem;
         margin: 0;
     }
     .t-p-s2{
@@ -430,7 +431,7 @@ nav li a:hover{
         font-size: 1rem;
     }
     .cont-3divs p{
-        font-size: 0.3rem;
+        font-size: 0.8rem;
         color: grey;
     }
     .section3{
@@ -449,6 +450,7 @@ nav li a:hover{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        gap: 2rem;
     }
     .cont-tit-img img{
         height: 100%;
@@ -473,6 +475,7 @@ nav li a:hover{
     }
     .cont-boton{
         width: 100%;
+        margin-top: 2rem;
     }
     .cont-boton button{
         width: 100%;
@@ -480,6 +483,7 @@ nav li a:hover{
     }
     .burger{
         display: block;
+        margin-right: 2.5rem;
     }
     nav ul{
         position: fixed;
@@ -508,8 +512,8 @@ nav li a:hover{
         border-radius: 2rem;
     }
     nav img{
-        margin-left: 2rem;
-        width: 30%;
+        margin-left: 0.5rem;
+        width: 50%;
     }
     .cont-3divs{
         display: flex;
