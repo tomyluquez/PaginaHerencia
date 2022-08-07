@@ -18,7 +18,7 @@ a{
 .encabezado{
     width: 100%;
     height: 15%;
-
+    font-weight: 600;
     border-bottom: 0.04rem solid black;
 }
 nav{
@@ -30,7 +30,8 @@ nav{
 }
 nav img{
     height: 100%;
-    width: 18%;
+    width: 15%;
+    padding-left: 1rem;
 }
 nav ul{
     float: right;
@@ -93,6 +94,7 @@ nav li a:hover{
 .tit-p-b p{
     width: 60%;
     color: grey;
+    font-weight: 600;
 }
 .tit-p-b button{
     width: 100%;
@@ -138,7 +140,6 @@ nav li a:hover{
 .t-p-s2{
     width: 50%;
     height: 30%;
-
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -155,42 +156,50 @@ nav li a:hover{
 .cont-3divs{
     width: 70%;
     height: 100%;
-
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: flex-end;
 }
 .i-t-izq{
     width: 25%;
     height: 80%;
-
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    background-color: #fafafa   ;
+    border-radius: 1rem;
+    box-shadow: 0.5rem 0.5rem rgba(0, 0, 0, 0.204);
+    border: 0.1rem  ridge rgb(223, 223, 223);
+
 }
 .i-t-cen{
     width: 25%;
     height: 80%;
-
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    background-color: #fafafa   ;
+    border-radius: 1rem;
+    box-shadow: 0.5rem 0.5rem rgba(0, 0, 0, 0.204);
+    border: 0.1rem  ridge rgb(223, 223, 223);
 }
 .i-t-der{
     width: 25%;
     height: 80%;
-
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    background-color: #fafafa   ;
+    border-radius: 1rem;
+    box-shadow: 0.5rem 0.5rem rgba(0, 0, 0, 0.204);
+    border: 0.1rem  ridge rgb(223, 223, 223);
 }
 .section3{
     width: 100%;
     height: 80%;
-
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -234,7 +243,7 @@ nav li a:hover{
 .lavado{
     width: 20%;
     height: 45%;
-
+    font-weight: 600;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -242,26 +251,26 @@ nav li a:hover{
     margin-top: 2rem;
 }
 .i-lavado{
-    width: 30%;
+    width: 35%;
     height: 40%;
 }
 .secado{
     width: 20%;
     height: 45%;
-
+    font-weight: 600;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
 }
 .i-secado{
-    width: 30%;
+    width: 35%;
     height: 40%;
 }
 .estrujado{
     width: 20%;
     height: 45%;
-
+    font-weight: 600;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -269,33 +278,33 @@ nav li a:hover{
     margin-top: 2rem;
 }
 .i-estrujado{
-    width: 30%;
+    width: 35%;
     height: 40%;
 }
 .planchado{
     width: 20%;
     height: 45%;
-
+    font-weight: 600;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
 }
 .i-planchado{
-    width: 30%;
+    width: 35%;
     height: 40%;
 }
 .lavandina{
     width: 20%;
     height: 45%;
-
+    font-weight: 600;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
 }
 .i-lavandina{
-    width: 30%;
+    width: 35%;
     height: 40%;
 }
 .todoelpie{
@@ -330,8 +339,10 @@ nav li a:hover{
         justify-content: center;
     }
     .todoelpie li{
-        display: inline;
+        display: inline-block;
         font-size: 0.5rem;
+        text-align: center;
+        font-weight: 600;
     }
     .cont-2div-s3{
         display: flex;
@@ -348,16 +359,17 @@ nav li a:hover{
     }
     .cont-5divs{
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
-        flex-direction: row;
+        flex-direction: column;
+        gap: 1rem;
     }
     .cont-5divs img{
         height: 70%;
         margin: 0;
     }
     .cont-5divs p{
-        font-size: 0.5rem;
+        font-size: 1rem;
         margin: 0;
     }
     .lavado{
@@ -373,7 +385,7 @@ nav li a:hover{
     }
     .lavandina img{
         height: 3rem;
-        width: 3rem;
+        width: 5rem;
     }
     .estrujado img{
         height: 3rem;
@@ -415,7 +427,7 @@ nav li a:hover{
         justify-content: space-between;
     }
     .cont-3divs h5{
-        font-size: 0.5rem;
+        font-size: 1rem;
     }
     .cont-3divs p{
         font-size: 0.3rem;
@@ -444,6 +456,7 @@ nav li a:hover{
     }
     .section2{
         width: 100%;
+        height: 100vh;
     }
     .tit-p-b{
         margin: 0;
@@ -497,5 +510,27 @@ nav li a:hover{
     nav img{
         margin-left: 2rem;
         width: 30%;
+    }
+    .cont-3divs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 100vh;
+    }
+    .i-t-izq{
+        width: 60%;
+        height: 30%;  
+    }
+    .i-t-iz h5{
+        font-size: 10rem;
+    }
+    .i-t-cen{
+        width: 60%;
+        height: 30%;  
+    }
+    .i-t-der{
+        width: 60%;
+        height: 30%;  
     }
 }
